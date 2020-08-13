@@ -1,0 +1,26 @@
+plugins {
+    id 'java-library'
+    id 'kotlin'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+dependencies {
+    api project(':models')
+    api "com.github.mvarnagiris.mvi:core:$mvi_version"
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version"
+
+    testImplementation "org.junit.jupiter:junit-jupiter:5.6.2"
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutines_version"
+    testImplementation "com.willowtreeapps.assertk:assertk-jvm:0.22"
+    testImplementation "org.jeasy:easy-random-core:4.2.0"
+}
+
+test {
+    useJUnitPlatform()
+}
