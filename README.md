@@ -2,7 +2,7 @@
 
 ## Your task
 
-Fork this repo. Explore existing code. It has some good bits and some bad bits. Feel free to change anything. Actually, feel free to not use this code at all and do your own project. We've made it to save you some time and to highlight some expectations, like writing tests.
+Clone this repo. Explore existing code. It has some good bits and some bad bits. Feel free to change anything. Actually, feel free to not use this code at all and do your own project. We've made it to save you some time and to highlight some expectations, like writing tests.
 
 - Get [this C++ class](https://gist.github.com/uwjimmyxu/511e76914e280d502dca3f34bacdcfb1) that will act as your data source and use it instead of the dummy data source that is currently there
 - Create detail screen for a movie
